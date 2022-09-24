@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    
+
+    <script src="https://kit.fontawesome.com/1f8c21a5fa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Registration</title>
+</head>
+<body>
+    <header class="header">
+        <div class="top-panel container">
+            <div class="left-bar">
+                <a href="index.html" class="header-logo"> 
+                    <img src="img/logo.png" alt="">
+                </a>
+                <img src="img/search.png" alt="">
+            </div>
+
+            <div class="right-bar">
+               <a href="#" class="header-nav-link"> <span class="top-panel-item"><i class="fas fa-bars"></i></span> </a>
+               <a href="#" class="header-nav-link"> <span class="top-panel-item"><i class="far fa-user"></i></span></a>
+               <a href="cart.html" class="header-nav-link"> <span class="top-panel-item"><i class="fas fa-shopping-cart"></i></span></a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumbs">
+
+        <div class="breadcrumbs-wrap container">
+            <h1 class="arrivals">REGISTRATION </h1>
+            
+        </div>
+    </nav>
+
+    <section class="registraion-wrap container">
+        <article class="registration-part">
+            <form class="registration-form" action="#">
+                <fieldset class="name-fieldset">
+                    <legend>Your Name</legend>
+                    <input class="regform-field" type="text" placeholder="First Name" required>
+                    <input class="regform-field" type="text" placeholder="Last Name" required>
+                </fieldset>
+                <fieldset class="gender-fieldset">
+                    <label><input type="radio" name="gender" value="male" required> Male </label>
+		            <label><input type="radio" name="gender" value="female" required> Female </label>	
+                </fieldset>
+                <fieldset class="login-fieldset">
+                    <legend>Login details</legend>
+                    <input class="regform-field" type="email" placeholder="Email" required>
+		            <input class="regform-field" type="password" placeholder="Password" required>
+                </fieldset>
+
+                <p class="reg-instruction">
+                    Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
+                </p>
+
+                <button class="reg-button" type="submit">
+                    JOIN NOW
+                    <span class="reg-button-arrow">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </span>
+                </button>
+            </form>
+
+        </article>
+        <article class="loyalty-part">
+            <h3 class="loyalty-name">
+                LOYALTY HAS ITS PERKS
+            </h3>
+            <p class="loyalty-info">
+                Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:
+            </p>
+
+            <ul class="perks-list">
+                <li class="perk">15% off welcome offer </li>
+                <li class="perk">Free shipping, returns and exchanges on all orders></li>
+                <li class="perk">$10 off a purchase on your birthday</li>
+                <li class="perk">Early access to products</li>
+                <li class="perk">Exclusive offers & rewards</li>
+            </ul>
+
+        </article>
+
+    </section>
+
+    <section class="sub">
+        <div class="sub-wrap container">
+
+            <div class="opinion">
+                <img src="img/opinion-img.png" alt="face" class="opinion-img">
+                <p class="opinion-text">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="opinion-text-italic"> a pulvinar purus condimentum“ </span>
+                </p>
+            </div>
+
+            <div class="email-part">
+                <p class="sub-big-text">SUBSCRIBE </p>
+                <p class="sub-small-text">FOR OUR NEWLETTER AND PROMOTION</p>
+
+                <form action="#" class="sub-form">
+                    <input class="sub-field" type="email" placeholder="Enter Your Email" required>
+                    <input class="sub-button" type="submit" value="Subscribe" >
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="socials">
+
+        <div class="socials-wrap container">
+
+            <div class="copyrights">
+                © 2021    &ensp;    Brand  &ensp;  All Rights Reserved.
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+
+    <script src="https://kit.fontawesome.com/1f8c21a5fa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <title>Cart</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-panel container">
+            <div class="left-bar">
+                <a href="index.html" class="header-logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <img src="img/search.png" alt="">
+            </div>
+
+            <div class="right-bar">
+                <a href="#" class="header-nav-link"> <span class="top-panel-item"><i class="fas fa-bars"></i></span>
+                </a>
+                <a href="registration.html" class="header-nav-link"> <span class="top-panel-item"><i
+                            class="far fa-user"></i></span></a>
+                <a href="#" class="header-nav-link"> <span class="top-panel-item"><i
+                            class="fas fa-shopping-cart"></i></span></a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumbs">
+
+        <div class="breadcrumbs-wrap container">
+            <h1 class="arrivals">SHOPPING CART </h1>
+        </div>
+    </nav>
+
+    <section class="shopping-result container">
+        <div class="items-in-cart">
+            <div class="item-in-cart">
+                <img src="img/cart-item.jpg" alt="item-photo">
+                <div class="item-in-cart-data">
+                    <h3 class="item-in-cart-name">
+                        MANGO PEOPLE T-SHIRT
+                    </h3>
+
+                    <p class="item-in-cart-attribute">Price: <span class="pink-price">$300</span> </p>
+                    <p class="item-in-cart-attribute">Color: Red </p>
+                    <p class="item-in-cart-attribute">Size: Xl </p>
+                    <p class="item-in-cart-attribute">
+                        Quantity:
+                        <input class="item-in-cart-quantity" type="number" value="2">
+                    </p>
+                </div>
+                <button class="delete-from-cart">
+
+                </button>
+            </div>
+
+            <div class="item-in-cart">
+                <img src="img/cart-item.jpg" alt="item-photo">
+                <div class="item-in-cart-data">
+                    <h3 class="item-in-cart-name">
+                        MANGO PEOPLE T-SHIRT
+                    </h3>
+
+                    <p class="item-in-cart-attribute">Price: <span class="pink-price">$300</span> </p>
+                    <p class="item-in-cart-attribute">Color: Red </p>
+                    <p class="item-in-cart-attribute">Size: Xl </p>
+                    <p class="item-in-cart-attribute">
+                        Quantity:
+                        <input class="item-in-cart-quantity" type="number" value="2">
+                    </p>
+                </div>
+
+                <button class="delete-from-cart">
+
+                </button>
+
+            </div>
+
+            <button class="cart-button" type="reset">
+                CLEAR SHOPPING CART
+            </button>
+
+            <button class="cart-button">
+                CONTINUE SHOPPING
+            </button>
+        </div>
+
+        <div class="cart-forms">
+            <form class="shipping-adress-form" action="#">
+                <p>SHIPPING ADRESS</p>
+                <input class="country-name" type="text" placeholder="Bangladesh" required>
+                <input class="state-name" type="text" placeholder="State" required>
+                <input class="postcode-number" type="text" placeholder="Postcode / Zip" required>
+                <button class="quote-button" type="submit">GET A QUOTE</button>
+
+            </form>
+
+            <form class="price-calc">
+                <p class="sub-total">
+                    <span>SUB TOTAL</span>
+                    <span class="sub-result">$900</span>
+                </p>
+
+                <p class="grand-total">
+                    <span>GRAND TOTAL</span>
+                    <span class="pink-total-result">$900</span>
+                </p>
+
+                <button class="checkout-button" type="submit">PROCEED TO CHECKOUT</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="sub">
+        <div class="sub-wrap container">
+
+            <div class="opinion">
+                <img src="img/opinion-img.png" alt="face" class="opinion-img">
+                <p class="opinion-text">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="opinion-text-italic"> a
+                        pulvinar purus condimentum“ </span>
+                </p>
+            </div>
+
+            <div class="email-part">
+                <p class="sub-big-text">SUBSCRIBE </p>
+                <p class="sub-small-text">FOR OUR NEWLETTER AND PROMOTION</p>
+
+                <form action="#" class="sub-form">
+                    <input class="sub-field" type="email" placeholder="Enter Your Email" required>
+                    <input class="sub-button" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="socials">
+
+        <div class="socials-wrap container">
+
+            <div class="copyrights">
+                © 2021 &ensp; Brand &ensp; All Rights Reserved.
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#" class="social-links">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
